@@ -29,13 +29,11 @@ $(document).ready(function() {
                     cleaner = setTimeout(function(){
                                         indicator.text('');
                                         }, Reset);
-                    console.log('t1-t0='+(t1-t0)+'; x1-x0='+(x1-x0));
                 }
                 // if backspace is pressed
                 else if (e.keyCode == 8) {
                 t0=t1=$.now();
                 x0=x1;
-                console.log('Backspace: t1-t0='+(t1-t0)+'; x1-x0='+(x1-x0));
                 indicator.text('');
                 clearTimeout(cleaner);
                 }
