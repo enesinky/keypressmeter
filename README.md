@@ -16,7 +16,7 @@ const Reset = 3000; // reset time is set to 3000ms
 ### Example:
 ```
 <div>
-<input type="textbox" value="" placeholder="Start Typing.." class="speedcheck">
+<input type="textbox" class="speedcheck">
 <span class="speedcheck"></span>        
 </div>
 ```
