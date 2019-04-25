@@ -7,10 +7,8 @@ Usage:
 1. Add 'speedcheck' class on your input element
 2. Append a <span> with 'speecheck' className where you would like to show speed indicator.
 
-Example
+Example:
     <div>
         <input type="textbox" value="" placeholder="Start Typing.." class="speedcheck">
         <span class="speedcheck"></span>        
     </div>
-	
-	
